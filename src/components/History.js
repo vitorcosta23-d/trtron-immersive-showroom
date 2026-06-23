@@ -5,20 +5,20 @@ const pillars = [
   {
     value: '36',
     suffix: 'anos no setor',
-    title: 'Expertise eletronica',
-    description: 'A autoridade tecnica da TRtron vem de decadas no segmento eletronico, aplicadas ao presente da automacao.',
+    title: 'Expertise eletrônica',
+    description: 'A autoridade técnica da TRtron vem de décadas no segmento eletrônico, aplicadas ao presente da automação.',
   },
   {
     value: '100%',
     suffix: 'nacional',
-    title: 'Fabricacao brasileira',
-    description: 'Produtos desenvolvidos e fabricados no Brasil com padrao elevado de qualidade e proximidade no suporte.',
+    title: 'Fabricação brasileira',
+    description: 'Produtos desenvolvidos e fabricados no Brasil com padrão elevado de qualidade e proximidade no suporte.',
   },
   {
     value: '5',
     suffix: 'anos',
     title: 'Garantia estendida',
-    description: 'Confianca de longo prazo para projetos residenciais e prediais que pedem durabilidade real.',
+    description: 'Confiança de longo prazo para projetos residenciais e prediais que pedem durabilidade real.',
   },
 ]
 
@@ -26,22 +26,22 @@ const milestones = [
   {
     year: '2009',
     title: 'Nascimento da TRtron',
-    description: 'A marca inicia sua trajetoria projetando e fabricando interruptores touch para o mercado brasileiro.',
+    description: 'A marca inicia sua trajetória projetando e fabricando interruptores touch para o mercado brasileiro.',
   },
   {
     year: '2016',
     title: 'Garantia de 5 anos',
-    description: 'A confianca no processo produtivo se transforma em uma garantia robusta para toda a linha.',
+    description: 'A confiança no processo produtivo se transforma em uma garantia robusta para toda a linha.',
   },
   {
     year: '2017 - 2022',
-    title: 'Personalizacao e inovacao',
-    description: 'A TRtron amplia solucoes sob medida e atualiza continuamente sua linha com novas tecnologias.',
+    title: 'Personalização e inovação',
+    description: 'A TRtron amplia soluções sob medida e atualiza continuamente sua linha com novas tecnologias.',
   },
   {
     year: 'Hoje',
-    title: 'Referencia nacional',
-    description: 'Com fabricacao local, qualidade certificada e foco total no cliente, a marca segue olhando para o futuro.',
+    title: 'Referência nacional',
+    description: 'Com fabricação local, qualidade certificada e foco total no cliente, a marca segue olhando para o futuro.',
   },
 ]
 
@@ -73,10 +73,10 @@ function History() {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[0.65rem] uppercase tracking-[0.36em] text-white/70">
-              Nossa historia
+              Nossa história
             </span>
             <h2 className="mt-6 max-w-lg font-serif text-4xl leading-tight text-white sm:text-5xl">
-              Uma marca brasileira que cresceu com consistencia, qualidade e relacao proxima com o cliente.
+              Uma marca brasileira que cresceu com consistência, qualidade e relação próxima com o cliente.
             </h2>
           </motion.div>
 
@@ -87,9 +87,9 @@ function History() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="max-w-2xl justify-self-end text-base leading-8 text-white/70"
           >
-            A TRtron nasceu em 2009, mas carrega uma bagagem de 36 anos no setor eletronico.
-            Esse historico, somado a fabricacao nacional, certificacao ISO 9001 e garantia de 5
-            anos, explica por que a marca transmite seguranca em projetos residenciais e prediais.
+            A TRtron nasceu em 2009, mas carrega uma bagagem de 36 anos no setor eletrônico.
+            Esse histórico, somado à fabricação nacional, à certificação ISO 9001 e à garantia de 5
+            anos, explica por que a marca transmite segurança em projetos residenciais e prediais.
           </motion.p>
         </div>
 
@@ -124,11 +124,11 @@ function History() {
             className="sensor-card glass-panel rounded-[2rem] p-7"
           >
             <span className="text-xs uppercase tracking-[0.32em] text-white/45">Qualidade certificada</span>
-            <h3 className="mt-4 font-serif text-3xl text-white">Qualidade de fabrica, personalizacao e atendimento proximo.</h3>
+            <h3 className="mt-4 font-serif text-3xl text-white">Qualidade de fábrica, personalização e atendimento próximo.</h3>
             <p className="mt-5 text-sm leading-7 text-white/68">
-              No site institucional, a TRtron reforca responsabilidade, melhoria continua e
-              compromisso com a satisfacao do cliente. Aqui, isso aparece de forma mais clara e
-              objetiva: produto bem resolvido, acabamento bonito e uma marca que inspira confianca.
+              No site institucional, a TRtron reforça responsabilidade, melhoria contínua e
+              compromisso com a satisfação do cliente. Aqui, isso aparece de forma mais clara e
+              objetiva: produto bem resolvido, acabamento bonito e uma marca que inspira confiança.
             </p>
           </motion.div>
 

@@ -1,19 +1,19 @@
 import BrandLogo from './BrandLogo'
 
 const menuLinks = [
-  { label: 'Inicio', href: '#welcome' },
-  { label: 'Historia', href: '#history' },
+  { label: 'Início', href: '#welcome' },
+  { label: 'História', href: '#history' },
   { label: 'Showroom', href: '#showroom' },
   { label: 'Site oficial', href: 'https://www.trtron.com.br/' },
 ]
 
 const importantLinks = [
-  { label: 'Politica de Privacidade', href: 'https://www.trtron.com.br/politica-de-privacidade/' },
+  { label: 'Política de Privacidade', href: 'https://www.trtron.com.br/politica-de-privacidade/' },
   {
-    label: 'Politica de LGPD',
+    label: 'Política de LGPD',
     href: 'https://www.trtron.com.br/politica-de-privacidade-e-protecao-de-dados-lgpd-tr-tron/',
   },
-  { label: 'Tipos e Dados Tecnicos', href: 'https://www.trtron.com.br/tipos-e-dados-tecnicos/' },
+  { label: 'Tipos e Dados Técnicos', href: 'https://www.trtron.com.br/tipos-e-dados-tecnicos/' },
 ]
 
 const socialLinks = [
@@ -54,7 +54,7 @@ function Footer() {
               <BrandLogo className="scale-[0.84] origin-left sm:scale-100" />
             </div>
             <p className="mt-5 max-w-sm text-sm leading-7 text-white/68">
-              Tecnologia eletronica com design sofisticado, fabricacao nacional e foco em
+              Tecnologia eletrônica com design sofisticado, fabricação nacional e foco em
               interruptores inteligentes que valorizam o ambiente.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
@@ -73,7 +73,7 @@ function Footer() {
           </div>
 
           <div>
-            <p className="text-xs uppercase tracking-[0.34em] text-trtron-100/48">Navegacao</p>
+            <p className="text-xs uppercase tracking-[0.34em] text-trtron-100/48">Navegação</p>
             <div className="mt-5 flex flex-col gap-3 text-sm text-white/70">
               {menuLinks.map((link) => (
                 <a
@@ -146,7 +146,7 @@ function Footer() {
                 <span className="mt-1 text-trtron-300">
                   <FooterIcon type="pin" />
                 </span>
-                <p>Rua Tupi Paulista, 120 - Estancia Flora Rica, Peruibe - SP</p>
+                <p>Rua Tupi Paulista, 120 - Estância Flora Rica, Peruíbe - SP</p>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@ function Footer() {
                   <FooterIcon type="clock" />
                 </span>
                 <div>
-                  <p className="text-white">Segunda a Quinta</p>
+                  <p className="text-white">Segunda a quinta-feira</p>
                   <p className="text-white/48">07:30 - 12:00 / 13:00 - 17:30</p>
                 </div>
               </div>
@@ -175,7 +175,7 @@ function Footer() {
               <div className="rounded-[1.5rem] border border-white/10 bg-black/20 p-4">
                 <p className="text-xs uppercase tracking-[0.3em] text-trtron-100/45">TRtron</p>
                 <p className="mt-3 text-sm leading-7 text-white/66">
-                  100% brasileira, com 36 anos de experiencia no setor eletronico e 5 anos de
+                  100% brasileira, com 36 anos de experiência no setor eletrônico e 5 anos de
                   garantia na linha de interruptores.
                 </p>
               </div>
@@ -184,7 +184,7 @@ function Footer() {
         </div>
 
         <div className="mt-6 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs uppercase tracking-[0.18em] text-white/38 md:flex-row md:items-center md:justify-between">
-          <p>TRtron Tecnologia Eletronica • CNPJ 10.797.606/0001-53</p>
+          <p>TRtron Tecnologia Eletrônica • CNPJ 10.797.606/0001-53</p>
           <p>Copyright © 2024 TRtron</p>
         </div>
       </div>

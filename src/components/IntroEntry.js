@@ -25,7 +25,7 @@ function IntroLogoLayer({ type, zIndex }) {
           <div className="intro-logo-reg">®</div>
         </div>
       </div>
-      <div className="intro-logo-sub">TECNOLOGIA ELETRONICA</div>
+      <div className="intro-logo-sub">TECNOLOGIA ELETRÔNICA</div>
     </div>
   )
 }
@@ -189,7 +189,7 @@ function IntroEntry({ onEnterCatalog, onPrimeAudio }) {
             <svg className="intro-catalog-play" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M8 5v14l11-7z" />
             </svg>
-            Ver Catalogo
+            Ver catálogo
           </motion.button>
         </div>
       </motion.div>

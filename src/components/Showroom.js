@@ -55,7 +55,7 @@ const previewModels = {
 const finishAccent = {
   black: 'Vidro preto com brilho elegante',
   white: 'Acabamento claro e minimalista',
-  marble: 'Marmore com leitura premium',
+  marble: 'Mármore com leitura premium',
   wood: 'Textura quente e sofisticada',
 }
 
@@ -98,7 +98,7 @@ function BrandMark({ className = '' }) {
         ®
       </text>
       <text x="70" y="88" fill="currentColor" fontFamily="Arial, Helvetica, sans-serif" fontSize="13" fontWeight="500" letterSpacing="1.2">
-        TECNOLOGIA ELETRONICA
+        TECNOLOGIA ELETRÔNICA
       </text>
     </svg>
   )
@@ -397,7 +397,7 @@ function QuoteSummary() {
   if (!summary) {
     return (
       <div className="rounded-[2rem] border border-dashed border-white/15 bg-white/[0.03] p-6 text-sm leading-7 text-white/60">
-        Selecione a composicao e clique em <strong className="text-white">Solicitar orcamento</strong>{' '}
+        Selecione a composição e clique em <strong className="text-white">Solicitar orçamento</strong>{' '}
         para registrar um resumo pronto para atendimento.
       </div>
     )
@@ -409,7 +409,7 @@ function QuoteSummary() {
       animate={{ opacity: 1, y: 0 }}
       className="rounded-[2rem] border border-trtron-300/35 bg-trtron-400/10 p-6"
     >
-      <p className="text-xs uppercase tracking-[0.34em] text-trtron-100/70">Resumo do orcamento</p>
+      <p className="text-xs uppercase tracking-[0.34em] text-trtron-100/70">Resumo do orçamento</p>
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <div className="sensor-card rounded-2xl border border-white/10 bg-black/15 p-4">
           <span className="text-xs uppercase tracking-[0.24em] text-white/45">Modelo</span>
@@ -477,8 +477,8 @@ function HouseWithStyleSection() {
             Tecnologia residencial apresentada em movimento.
           </h3>
           <p className="mt-5 text-base leading-8 text-white/68">
-            Agora essa area usa o video oficial da TRtron, com leitura mais limpa e foco total na
-            experiencia visual do produto aplicado ao ambiente.
+            Agora essa área usa o vídeo oficial da TRtron, com leitura mais limpa e foco total na
+            experiência visual do produto aplicado ao ambiente.
           </p>
         </div>
 
@@ -499,7 +499,7 @@ function HouseWithStyleSection() {
                 />
               </div>
               <div className="absolute left-4 top-4 rounded-full border border-white/15 bg-black/24 px-3 py-2 text-[0.62rem] uppercase tracking-[0.26em] text-white/70 backdrop-blur-md">
-                Video oficial
+                Vídeo oficial
               </div>
               <div className="absolute right-4 top-4 z-10 flex gap-2">
                 <button
@@ -521,29 +521,29 @@ function HouseWithStyleSection() {
 
             <div className="flex flex-col justify-center">
               <span className="text-xs uppercase tracking-[0.34em] text-trtron-100/48">
-                Experiencia visual
+                Experiência visual
               </span>
               <h4 className="mt-4 font-serif text-3xl leading-tight text-white sm:text-4xl">
                 Um enquadramento vertical maior para valorizar melhor a linguagem da marca.
               </h4>
               <p className="mt-5 max-w-xl text-base leading-8 text-white/70">
-                O video agora fica mais alto, mais limpo e mais organizado dentro da pagina,
-                preservando a leitura premium da automacao e deixando o conteudo respirar melhor.
+                O vídeo agora fica mais alto, mais limpo e mais organizado dentro da página,
+                preservando a leitura premium da automação e deixando o conteúdo respirar melhor.
               </p>
 
               <div className="mt-8 grid gap-3 sm:grid-cols-2">
                 <div className="sensor-card rounded-[1.4rem] border border-white/10 bg-black/18 p-4">
                   <p className="text-xs uppercase tracking-[0.28em] text-trtron-100/45">Design</p>
                   <p className="mt-3 text-sm leading-7 text-white/72">
-                    Uma apresentacao mais vertical e elegante para reforcar o aspecto autoral dos
+                    Uma apresentação mais vertical e elegante para reforçar o aspecto autoral dos
                     interruptores.
                   </p>
                 </div>
                 <div className="sensor-card rounded-[1.4rem] border border-white/10 bg-black/18 p-4">
-                  <p className="text-xs uppercase tracking-[0.28em] text-trtron-100/45">Aplicacao</p>
+                  <p className="text-xs uppercase tracking-[0.28em] text-trtron-100/45">Aplicação</p>
                   <p className="mt-3 text-sm leading-7 text-white/72">
-                    Conteudo visual pensado para mostrar o produto em uso com mais impacto e
-                    organizacao.
+                    Conteúdo visual pensado para mostrar o produto em uso com mais impacto e
+                    organização.
                   </p>
                 </div>
               </div>
@@ -567,7 +567,7 @@ function HouseWithStyleSection() {
             Alguns dos nossos produtos
           </span>
           <h4 className="mt-3 font-serif text-3xl text-white sm:text-4xl">
-            Destaques da linha TRtron em composicoes maiores e mais visiveis.
+            Destaques da linha TRtron em composições maiores e mais visíveis.
           </h4>
         </div>
 
@@ -622,10 +622,10 @@ function Showroom() {
             Modelos e acabamentos
           </span>
           <h2 className="mt-6 font-serif text-4xl leading-tight text-white sm:text-5xl">
-            Um configurador mais proximo do produto real, com forma e acabamento mais fiel.
+            Um configurador mais próximo do produto real, com forma e acabamento mais fiel.
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-8 text-white/70">
-            Refiz o terceiro bloco com base no modelo que voce enviou para deixar a peca mais
+            Refiz o terceiro bloco com base no modelo que você enviou para deixar a peça mais
             alinhada ao interruptor real da TRtron, especialmente no vidro frontal, nas teclas e
             na leitura premium dos acabamentos.
           </p>
@@ -642,7 +642,7 @@ function Showroom() {
               <div className="sensor-card mt-8 rounded-[1.75rem] border border-white/10 bg-black/20 p-5">
                 <div className="flex items-start justify-between gap-6">
                   <div>
-                    <span className="text-xs uppercase tracking-[0.28em] text-trtron-100/45">Configuracao ativa</span>
+                    <span className="text-xs uppercase tracking-[0.28em] text-trtron-100/45">Configuração ativa</span>
                     <p className="mt-2 text-lg font-semibold text-white">{model.label}</p>
                   </div>
                   <span className="rounded-full border border-trtron-100/10 px-3 py-1 text-xs uppercase tracking-[0.24em] text-trtron-100/75">
@@ -650,8 +650,8 @@ function Showroom() {
                   </span>
                 </div>
                 <p className="mt-4 text-sm leading-7 text-white/62">
-                  Uma leitura mais proxima do produto final para facilitar a apresentacao do projeto
-                  e a decisao do cliente.
+                  Uma leitura mais próxima do produto final para facilitar a apresentação do projeto
+                  e a decisão do cliente.
                 </p>
               </div>
             </div>
@@ -662,10 +662,10 @@ function Showroom() {
 
         <div className="mt-16 grid gap-8 rounded-[2rem] border border-trtron-100/10 bg-trtron-100/[0.04] p-8 lg:grid-cols-[1fr_1.05fr]">
           <div>
-            <span className="text-xs uppercase tracking-[0.34em] text-trtron-100/45">Orcamento</span>
-            <h3 className="mt-4 font-serif text-4xl text-white">Gostou desta composicao?</h3>
+            <span className="text-xs uppercase tracking-[0.34em] text-trtron-100/45">Orçamento</span>
+            <h3 className="mt-4 font-serif text-4xl text-white">Gostou desta composição?</h3>
             <p className="mt-5 max-w-xl text-base leading-8 text-white/68">
-              Registre a configuracao escolhida para seguir o atendimento com mais contexto e
+              Registre a configuração escolhida para seguir o atendimento com mais contexto e
               agilidade.
             </p>
             <button
@@ -673,7 +673,7 @@ function Showroom() {
               onClick={captureBudget}
               className="interactive-surface luxury-button mt-8 rounded-full px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-night"
             >
-              Solicitar orcamento
+              Solicitar orçamento
             </button>
           </div>
 

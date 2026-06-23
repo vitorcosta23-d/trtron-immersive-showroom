@@ -67,7 +67,7 @@ function Loader() {
   return (
     <Html center>
       <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.35em] text-white/70">
-        Preparando experiencia
+        Preparando experiência
       </div>
     </Html>
   )
@@ -132,7 +132,7 @@ function Hero({ id, onExplore, onShowroom }) {
               transition={{ duration: 0.8, ease: 'easeOut' }}
               className="mb-6 inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[0.65rem] uppercase tracking-[0.38em] text-white/75"
             >
-              Automacao residencial brasileira
+              Automação residencial brasileira
             </motion.div>
 
             <motion.h1
@@ -150,8 +150,8 @@ function Hero({ id, onExplore, onShowroom }) {
               transition={{ duration: 0.9, delay: 0.24 }}
               className="mt-6 max-w-xl text-sm leading-7 text-white/72 sm:text-base"
             >
-              Ha 36 anos no setor eletronico e desde 2009 como TRtron, a marca desenvolve no
-              Brasil solucoes de automacao com design limpo, boa presenca e confianca no dia a
+              Há 36 anos no setor eletrônico e desde 2009 como TRtron, a marca desenvolve no
+              Brasil soluções de automação com design limpo, boa presença e confiança no dia a
               dia.
             </motion.p>
 
@@ -188,19 +188,19 @@ function Hero({ id, onExplore, onShowroom }) {
               <div className="flex items-start justify-between gap-6 border-b border-trtron-100/10 pb-4">
                 <span className="uppercase tracking-[0.28em] text-trtron-100/50">36 anos</span>
                 <span className="max-w-[14rem] text-right">
-                  Experiencia de fabrica e desenvolvimento aplicada ao segmento eletronico.
+                  Experiência de fábrica e desenvolvimento aplicada ao segmento eletrônico.
                 </span>
               </div>
               <div className="flex items-start justify-between gap-6 border-b border-trtron-100/10 pb-4">
                 <span className="uppercase tracking-[0.28em] text-trtron-100/50">Desde 2009</span>
                 <span className="max-w-[14rem] text-right">
-                  A TRtron atua com foco em interruptores touch e automacao residencial.
+                  A TRtron atua com foco em interruptores touch e automação residencial.
                 </span>
               </div>
               <div className="flex items-start justify-between gap-6">
                 <span className="uppercase tracking-[0.28em] text-trtron-100/50">5 anos</span>
                 <span className="max-w-[14rem] text-right">
-                  Garantia de fabrica para transmitir seguranca a cada projeto.
+                  Garantia de fábrica para transmitir segurança a cada projeto.
                 </span>
               </div>
             </div>

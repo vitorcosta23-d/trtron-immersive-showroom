@@ -143,7 +143,7 @@ function EnvironmentView() {
         </div>
         <p className="max-w-xl text-sm leading-7 text-white/68">
           O mesmo configurador agora aparece de forma mais suave e equilibrada para ajudar o
-          cliente a imaginar a instalacao pronta sem perder o foco no produto.
+          cliente a imaginar a instalação pronta sem perder o foco no produto.
         </p>
       </div>
 

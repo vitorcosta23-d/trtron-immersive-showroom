@@ -33,7 +33,7 @@ export const modelOptions = [
   {
     id: 6,
     label: '6 teclas',
-    accent: 'Automacao total',
+    accent: 'Automação total',
     plateScale: [1.2, 1.52, 1],
     positions: [
       [-0.36, 0.95, 0.2],
@@ -75,7 +75,7 @@ export const finishOptions = [
   },
   {
     id: 'marble',
-    label: 'Marmore Calacata',
+    label: 'Mármore Calacata',
     swatch: '#f7f3eb',
     plateColor: '#f7f3eb',
     keyColor: '#f8f5ef',
@@ -106,7 +106,7 @@ export const finishOptions = [
 export const ledOptions = [
   { id: 'blue', label: 'Azul', color: '#6fb0dd', bloom: '#aad2ed' },
   { id: 'green', label: 'Verde', color: '#53f28d', bloom: '#8dffb3' },
-  { id: 'yellow', label: 'Ambar', color: '#e8b34b', bloom: '#f6d58d' },
+  { id: 'yellow', label: 'Âmbar', color: '#e8b34b', bloom: '#f6d58d' },
 ]
 
 export const environmentOptions = [
@@ -122,7 +122,7 @@ export const environmentOptions = [
     label: 'Quarto',
     wall: '#e7ddd3',
     accent: '#6f4b2a',
-    copy: 'Leitura noturna, led suave e um clima acolhedor para o descanso.',
+    copy: 'Leitura noturna, LED suave e um clima acolhedor para o descanso.',
   },
 ]
 
